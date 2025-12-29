@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+  }
+
+  .Card {
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 250px;
+  }
+
+  .avatar {
+    width: 130px;
+    height: 150px;
+    position: absolute;
+    top: 85px;
+    left: 80px;
+  }
+
+  .frame {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+
+  }
