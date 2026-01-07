@@ -2,6 +2,23 @@ body {
     margin: 0;
     padding: 0;
     background-color: aliceblue;
+    color: #333;
+
+  }
+
+  .Text {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .App {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
   }
 
   .Card {
