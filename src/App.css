@@ -1,48 +1,110 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-color: aliceblue;
-    color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+  color: #333;
 
-  }
+}
 
-  .Text {
-    margin-top: 20px;
-    font-size: 24px;
-    font-weight: bold;
-  }
+.Text {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
 
-  .App {
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-  }
+.App {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
-  .Card {
-    border-radius: 15px;
-    position: relative;
-    overflow: hidden;
-    width: 300px;
-    height: 250px;
-  }
+.Card {
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  height: 250px;
+}
 
-  .avatar {
-    width: 130px;
-    height: 150px;
-    position: absolute;
-    top: 85px;
-    left: 80px;
-  }
+.avatar {
+  width: 130px;
+  height: 150px;
+  position: absolute;
+  top: 85px;
+  left: 80px;
+}
 
-  .frame {
-    width: 300px;
-    height: 300px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+.frame {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 
-  }
+}
+
+/* layout con grid */
+.layout {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  height: 100vh;
+}
+
+/* SIDEBAR  */
+
+.sidebar {
+  background: linear-gradient(to bottom, #793206 0%, #793206 30%, #501e02 50%, #501e02 100%);
+  color: white;
+}
+
+.sidebar section {
+  padding: .5rem 1rem;
+}
+
+.sidebar div {
+  padding: 1.2rem;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  color: #f9d059;
+}
+
+.sidebar div:hover {
+  padding: 1.2rem;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #963c00;
+  cursor: pointer;
+
+}
+
+.sidebar i {
+  margin-right: 5px;
+}
+
+
+.sidebar hr {
+  border: none;
+  height: 2px;
+  background-color: #bb4d00;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.toggle-theme {
+  display: flex;
+  background-color: #963c00;
+  align-items: center;
+  justify-content: center;
+}
+
+.toggle-theme:hover {
+  display: flex;
+  background-color: #bb4d00 !important;
+  align-items: center;
+  justify-content: center;
+}
