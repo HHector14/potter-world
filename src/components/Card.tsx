@@ -1,6 +1,8 @@
 import type { CharacterCard } from "../types/components";
 
 export function Card({id, name, image}: CharacterCard) {
+  console.log(id, name, image);
+  
   return (
     <div>
       <div className="Card">
