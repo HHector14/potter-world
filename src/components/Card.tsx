@@ -7,7 +7,7 @@ export function Card({id, name, image}: CharacterCard) {
           <img className='avatar' src={image} alt="hh" />
           <img className='frame' src="./card.png" alt="" />
       </div>
-      <p className="Text">{name}</p>
+      <p className="Text" >{name}</p>
     </div>
   )
 }
