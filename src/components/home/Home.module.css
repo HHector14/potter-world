@@ -1,0 +1,76 @@
+ .cardMain {
+   border-radius: 8px;
+   min-width: 300px;
+   background: linear-gradient(to right, #562206 0%, #591218 50%, #591218 60%, #40115e 100%);
+   padding: 1rem;
+   text-align: center;
+   color: #f1f1f1;
+ }
+
+ .button {
+   padding: .7rem;
+   border-radius: 5px;
+   margin: 15px 0 20px 0;
+   font-size: 18px;
+ }
+
+ .button:hover {
+   cursor: pointer;
+ }
+
+ .button.orange {
+   background-color: #e17100;
+ }
+
+ .button.orange:hover {
+   background-color: #bb4d00;
+ }
+
+ .button.purple {
+   background-color: #9810fa;
+ }
+
+ .button.purple:hover {
+   background-color: #8200db;
+ }
+
+ .cardInfo {
+   border-radius: 8px;
+   background-color: #FFF;
+   padding: .6rem;
+   text-align: center;
+   color: #000;
+   box-shadow: 0px 2px 20px #A1a1a1;
+   transition: box-shadow 0.3s ease, transform 0.3s ease;
+ }
+
+ .cardInfo:hover {
+   box-shadow: 0px 10px 20px 5px #A1a1a1;
+   transform: translateY(-2px);
+ }
+
+ .cardInfoIconContainer {
+   justify-self: left;
+   padding: 1rem;
+   margin-left: 5px;
+   /*CHARACTERS background: linear-gradient(140deg, #fd3c2e, #ff6500); */
+   /*HOUSES background: linear-gradient(140deg, #2286ff, #00b3df); */
+   /*SPELLS background: linear-gradient(140deg, #b548fa, #eb3ba9); */
+   /*BOOKS background: linear-gradient(140deg, #00c659, #00be77); */
+
+   border-radius: 10px;
+ }
+
+ .containerCardGrid {
+   display: grid;
+   margin-top: 40px;
+   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+   gap: 20px;
+   /* Espacio entre filas y columnas */
+ }
+
+ .miniCardInfo {
+   padding: .6rem;
+   text-align: center;
+   color: #000;
+ }
