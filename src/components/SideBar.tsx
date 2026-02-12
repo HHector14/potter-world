@@ -24,7 +24,6 @@ export default function SideBar() {
         </div>
         <div>
           <i className="fa-solid fa-house"></i>
-
           Houses
         </div>
         <div>
