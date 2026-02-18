@@ -1,7 +1,7 @@
  .cardMain {
    border-radius: 8px;
    min-width: 300px;
-   background: linear-gradient(to right, #562206 0%, #591218 50%, #591218 60%, #40115e 100%);
+   background: linear-gradient(to right, var(--bg-main-card-color1) 0%, var(--bg-main-card-color2) 50%, var(--bg-main-card-color2) 60%, var(--bg-main-card-color3) 100%);
    padding: 1rem;
    text-align: center;
    color: #f1f1f1;
@@ -36,16 +36,16 @@
 
  .cardInfo {
    border-radius: 8px;
-   background-color: #FFF;
+   background-color: var(--bg-card);
    padding: .6rem;
    text-align: center;
-   color: #000;
-   box-shadow: 0px 2px 20px #A1a1a1;
+   color: var(--text-color);
+   box-shadow: 0px 2px 20px 0px var(--bg-card-shadow);
    transition: box-shadow 0.3s ease, transform 0.3s ease;
  }
 
  .cardInfo:hover {
-   box-shadow: 0px 10px 20px 5px #A1a1a1;
+   box-shadow: 0px 10px 20px 5px var(--bg-card-shadow);
    transform: translateY(-2px);
  }
 
@@ -72,5 +72,5 @@
  .miniCardInfo {
    padding: .6rem;
    text-align: center;
-   color: #000;
+   color: var(--text-color);
  }
