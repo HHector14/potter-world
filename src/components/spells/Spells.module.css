@@ -1,0 +1,42 @@
+        .container {
+            display: flex;
+            gap: .5rem;
+            margin: 10px 0 20px 0;
+            flex-wrap: wrap;
+        }
+
+        .cardSpell {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 1.2rem 3rem;
+            border-radius: 10px;
+        }
+
+        .cardSpellLabel {
+            font-size: larger;
+            font-weight: 700;
+            margin-top: 10px;
+            color: #FFF;
+        }
+
+        .icon {
+            font-size: xx-large;
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: transparent;
+        }
+
+        .star {
+            background-image: linear-gradient(100deg, #e9c971, #f88a60);
+        }
+
+        .skull {
+            background-image: linear-gradient(100deg, #d6b4dc, #efedf3);
+        }
+
+        .snake {
+            background-image: linear-gradient(100deg, #005f77, #00864a);
+        }
