@@ -3,8 +3,13 @@ body {
   padding: 0;
   background-color: var(--bg-color);
   color: var(--text-color);
-  
 
+
+}
+
+.text {
+  margin: 0;
+  padding: 0;
 }
 
 .title {
@@ -22,11 +27,11 @@ body {
 }
 
 .TextNotFound {
-  justify-self: center; 
-  margin-top: 3rem; 
-  font-size: 20px; 
+  justify-self: center;
+  margin-top: 3rem;
+  font-size: 20px;
   color: var(--text-notfound-color);
- }
+}
 
 .App {
   text-align: center;
