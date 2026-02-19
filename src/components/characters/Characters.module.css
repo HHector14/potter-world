@@ -1,36 +1,4 @@
-    .box {
-        display: flex;
-        align-items: center;
-        gap: .5rem;
-        padding: .5rem .75rem;
-        border: 2px solid var(--bg-filter-hover);
-        border-radius: 8px;
-        background-color: var(--bg-filter);
-    }
-
-
-    .box i {
-        color: #a1a1a1;
-        font-size: 1rem;
-    }
-
-    .box input {
-        border: none;
-        outline: none;
-        font-size: 1rem;
-        flex: 1;
-    }
-
-    .box:focus-within {
-        border-color: #ffc518;
-        box-shadow: 0 0 0 2px rgba(152, 16, 250, 0.2);
-    }
-
-    .box.select {
-        margin: 0 .2rem;
-    }
-
-    .box.select:hover {
-        background-color: var(--bg-filter-hover);
-        cursor: pointer;
-    }
+.isActive{
+    background-color: #bb4d00;
+    color: #FFF;
+}
