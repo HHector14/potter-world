@@ -3,7 +3,7 @@ export default function Search() {
   return (
     <div className={styles.box}>
       <i className="fa-solid fa-magnifying-glass"></i>
-      <input type="text" placeholder="Search characters..." />
+      <input style={{background: "var(--bg-filter)"}} type="text" placeholder="Search characters..." />
     </div>
   )
 }

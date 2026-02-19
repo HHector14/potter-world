@@ -3,9 +3,9 @@
         align-items: center;
         gap: .5rem;
         padding: .5rem .75rem;
-        border: 1px solid #ccc;
+        border: 2px solid var(--bg-filter-hover);
         border-radius: 8px;
-        background-color: var(--bg-color);
+        background-color: var(--bg-filter);
     }
 
 
@@ -31,6 +31,6 @@
     }
 
     .box.select:hover {
-        background-color: #FAFAFA;
+        background-color: var(--bg-filter-hover);
         cursor: pointer;
     }

@@ -9,11 +9,11 @@ export default function SideBar() {
     <aside className="sidebar">
       <section>
 
-        <p style={{ fontSize: '25px', fontWeight: 800 }}>
+        <p style={{ fontSize: '1.5rem', fontWeight: 800, margin: '10px 0 5px 0' }}>
           <i style={{ color: "yellow" }} className="fa-solid fa-bolt-lightning"></i>
           Wizarding World
         </p>
-        <p style={{ color: '#ffc518', fontWeight: 200, fontSize: '12px', margin: 0 }}>Explore the magic</p>
+        <p style={{ color: "var(--subtitle-color)", fontWeight: 400, fontSize: '1rem', margin: 0 }}>Explore the magic</p>
       </section>
       <hr />
       <section style={{ display: 'flex', flexDirection: 'column' }}>
