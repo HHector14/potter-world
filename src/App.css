@@ -2,22 +2,30 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--bg-color);
-  color: #333;
+  color: var(--text-color);
   
 
 }
 
-.Text {
-  margin-top: 20px;
-  font-size: 24px;
+.title {
+  font-size: 2.2rem;
   font-weight: bold;
+  margin: 0;
+  color: var(--text-color);
+}
+
+.description {
+  font-size: 1rem;
+  margin: 0;
+  font-weight: 400;
+  color: var(--description-color);
 }
 
 .TextNotFound {
   justify-self: center; 
   margin-top: 3rem; 
   font-size: 20px; 
-  color: #818181;
+  color: var(--text-notfound-color);
  }
 
 .App {
@@ -58,7 +66,7 @@ body {
 /* layout con grid */
 .layout {
   display: grid;
-  grid-template-columns: 260px 1fr;
+  grid-template-columns: 280px 1fr;
   min-height: 100vh;
 }
 
@@ -74,12 +82,16 @@ body {
 }
 
 .sidebarLink {
-  padding: 1.2rem;
-  border-radius: 5px;
+  padding: 1rem;
+  border-radius: 12px;
   margin-bottom: 10px;
   color: var(--text-color-sidebar);
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
+
 
 .sidebarLinkActive {
   background-color: var(--bg-sidebar-link-active);
@@ -96,17 +108,12 @@ body {
 }
 
 .sidebar div {
-  padding: 1.2rem;
-  border-radius: 5px;
+  border-radius: 12px;
   margin-bottom: 10px;
-  border-radius: 5px;
   color: var(--text-color-sidebar);
 }
 
 .sidebar div:hover {
-  padding: 1.2rem;
-  margin-bottom: 10px;
-  border-radius: 5px;
   background-color: var(--text-color-sidebar-hover);
   cursor: pointer;
 
@@ -122,7 +129,7 @@ body {
   height: 2px;
   background-color: var(--bg-sidebar-link-active);
   width: 100%;
-  margin: 20px auto;
+  margin: .2rem auto;
 }
 
 .toggle-theme {
@@ -130,13 +137,12 @@ body {
   background-color: var(--bg-toggle);
   align-items: center;
   justify-content: center;
+  gap: 5px;
+  padding: 1rem;
 }
 
 .toggle-theme:hover {
-  display: flex;
   background-color: var(--bg-toggle-hover) !important;
-  align-items: center;
-  justify-content: center;
 }
 
 .content {
