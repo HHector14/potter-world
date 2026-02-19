@@ -1,8 +1,8 @@
  .cardMain {
-   border-radius: 8px;
+   border-radius: 18px;
    min-width: 300px;
    background: linear-gradient(to right, var(--bg-main-card-color1) 0%, var(--bg-main-card-color2) 50%, var(--bg-main-card-color2) 60%, var(--bg-main-card-color3) 100%);
-   padding: 1rem;
+   padding: 2rem;
    text-align: center;
    color: #f1f1f1;
  }
