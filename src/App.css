@@ -19,6 +19,13 @@ body {
   color: var(--text-color);
 }
 
+.subtitle {
+  font-size: 1.2rem;
+  font-weight: 900;
+  padding: .5rem 0;
+  color: var(--text-color);
+}
+
 .description {
   font-size: 1rem;
   margin: 0;
@@ -155,6 +162,12 @@ body {
   padding: 1.5rem;
 }
 
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: .5rem;
+}
+
 .purplePink {
   background: linear-gradient(140deg, #b548fa, #eb3ba9);
 }
@@ -169,4 +182,16 @@ body {
 
 .greenMint {
   background: linear-gradient(140deg, #00c659, #00be77);
+}
+
+.yellowGold {
+  background: linear-gradient(140deg, #ffc518, #ff8000);
+}
+
+.blueSky {
+  background: linear-gradient(140deg, #00bbb2, #00b9c9);
+}
+
+.yellow {
+  background: linear-gradient(140deg, #f9a000, #f6a700);
 }
