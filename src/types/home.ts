@@ -1,4 +1,4 @@
-export type ColorPallet = 'purplePink' | 'redOrange' | 'blueCyan' | 'greenMint' ;
+export type ColorPallet = 'purplePink' | 'redOrange' | 'blueCyan' | 'greenMint' | 'yellowGold' | 'blueSky' | 'yellow';
 export type IconCatalog = 'fa-people-group' | 'fa-house' | 'fa-magic' | 'fa-book' ;
 
 export type CardInfo = {
