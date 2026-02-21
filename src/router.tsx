@@ -13,6 +13,7 @@ export default function AppRouter() {
           <Route path="/" element={<Home/>}/>
           <Route path="/characters" element={<Characters/>}/>
           <Route path="/houses" element={<Houses/>}/>
+          <Route path="/characters/:house" element={<Characters/>}/>
           <Route path="/spells" element={<Spells/>}/>
           <Route path="/books" element={<Books/>}/>
         </Route>
