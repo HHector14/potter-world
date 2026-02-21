@@ -2,11 +2,12 @@ import FilterItem from "../ui/FiterItem"
 export default function Filter() {
   return (
     <>
-      <FilterItem label="All" />
-      <FilterItem label="Gryffindor" />
-      <FilterItem label="Slytherin" />
-      <FilterItem label="Ravenclaw" />
-      <FilterItem label="Hufflepuff" />
+        <FilterItem url="/characters" label="All" />
+        <FilterItem url="/characters/gryffindor" label="Gryffindor" />
+        <FilterItem url="/characters/slytherin" label="Slytherin" />
+        <FilterItem url="/characters/hufflepuff" label="Hufflepuff" />
+        <FilterItem url="/characters/ravenclaw" label="Ravenclaw" />
+
     </>
   )
 }
