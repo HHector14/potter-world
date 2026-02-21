@@ -6,6 +6,7 @@
         border: 2px solid var(--bg-filter-hover);
         border-radius: 8px;
         background-color: var(--bg-filter);
+        text-decoration: none;
     }
 
 
@@ -29,9 +30,15 @@
 
     .box.select {
         margin: 0 .2rem;
+        color: var(--color-filter);
     }
 
     .box.select:hover {
         background-color: var(--bg-filter-hover);
         cursor: pointer;
+    }
+
+    .box.select.active {
+        background-color: var(--bg-filter-active);
+        color: var(--color-filter-active);
     }
