@@ -2,7 +2,7 @@ import Search from "../components/ui/Search"
 import Filter from "../components/characters/Filter"
 import useFetchCharacters from "../hook/useFetchCharacters"
 export default function Characters() {
-  const { characters, loading, error, setUrl } = useFetchCharacters();
+  const { characters, loading, error } = useFetchCharacters();
 
   if(loading) {
     return <p>Loading...</p>
