@@ -1,15 +1,17 @@
 import { useEffect, useState } from "react";
 import type { CharacterCard } from "../types/components";
+import { API_BASE_URL } from "../config/api";
 
-export default function useFetchAllCharacters() {
+export default function useFetchCharacters() {
   const [characters, setCharacters] = useState<CharacterCard[]>([])
+  const [url, setUrl] = useState<string>("characters")
   const [loading, setLoading] = useState<boolean>(true)
   const [error, setError] = useState<Error | null>(null)
 
   useEffect(() =>{
     const fetchData = async () => {
       try {
-      const response = await fetch("https://potterhead-api.vercel.app/api/characters")
+      const response = await fetch(`${API_BASE_URL}${url}`)
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
@@ -27,7 +29,8 @@ export default function useFetchAllCharacters() {
       }
     }
     fetchData()
-  }, [])
+  }, [setCharacters, url])
 
-  return { characters, loading, error }
+
+  return { characters, loading, error, setUrl }
 }
